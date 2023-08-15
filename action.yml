@@ -1,0 +1,12 @@
+name: Auto Version
+description: 'Automatically calculate version'
+
+outputs:
+  version:
+    description: generated version
+  shortlog:
+    description: git shortlog
+
+runs:
+  using: 'node16'
+  main: 'index.js'
