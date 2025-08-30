@@ -3,6 +3,6 @@
 Automatically export git tag infromation.
 
 
-### deevelopment:
+### development:
 
 To update the floating release, use the command `just float-v1-release-tag $tag`
