@@ -4,6 +4,8 @@ description: 'Automatically calculate version'
 outputs:
   version:
     description: generated version
+  shortsha:
+    description: short sha of the commit
   shortlog:
     description: git shortlog
 
